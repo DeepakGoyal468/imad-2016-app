@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.send("This is the first article form my side");
+  res.send("This is the first article from my side");
 });
 
 app.get('/article-two', function (req, res) {
-  res.send("This is the second article form my side");
+  res.send("This is the second article from my side");
 });
 
 app.get('/article-three', function (req, res) {
-  res.send("This is the third article form my side");
+  res.send("This is the third article from my side");
 });
 
 
