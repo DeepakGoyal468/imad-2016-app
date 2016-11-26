@@ -1,35 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div>
-            <div class="center">
-                <img id='madi' src="/ui/madi.png" class="img-medium"/>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>MyPortfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Marcellus" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default visible-xs">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">JCM</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="https://in.linkedin.com/in/deepak-goyal-2722b1116" target="_blank">LinkedIn <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li><a href="https://github.com/DeepakGoyal468" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="mailto:goyaldeepu468@gmail.com">Email</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <br>
-            <h3>Personal</h3>
-            <div>
-                Hi,my name is Deepak Goyal.
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="row header">
+            <nav>
+                <ul>
+                    <li class="proBtn"><a href="#">Projects</a>
+                    </li>
+                    
+                	<li class="skillsBtn"><a href="#">Skills</a>
+                    </li>
+                    <li class="hvr-underline-from-center"><a href="https://in.linkedin.com/in/deepak-goyal-2722b1116" target="_blank">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/DeepakGoyal468" target="_blank">GitHub</a>
+                    </li>
+                    <li class="hvr-underline-from-center"><a href="mailto:goyaldeepu468@gmail.com">Email</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main row">
+            <div class="col-lg-12 col-md-12">
+                <h1>Hey I am <span class="name">Deepak Goyal</span></h1>
             </div>
-            <hr/>
-            <h3>professional</h3>           
-            <div>
-                I study at IIIT Vadodara.
+            <div class="col-lg-12 col-md-12">
+                <h4>I am a <span class="name">Front End Web Developer</span></h4>
             </div>
-            <hr/>
-            <div class="footer">
-                This button <button id="counter">Click me!</button>has been clicked <span id="count">0</span> times.
-                <hr/>
-                <input type="text" id="name" placeholder="name">
-                <input type="submit" value="submit" id= 'submit_btn'>
-                <ul id="namelist">
+            <div class="col-lg-12 col-md-12">
+                <p class="about">I am originally from Jaipur. Currently pursuing Btech degree at IIIT Vadodara. I come from a background of solving complex problems, and enjoy learning how things work. My time in the college has helped me develop many soft-skills, and has made me a great team player who can work and adapt to any situation on the fly. During my free time I enjoy playing volleyball and football.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row projectDisplay">
+            <div class="col-md-12 text-right">
+                <h2 class="headline">Current Projects</h2>
+            </div>
+        </div>
+        <div class="row projects projectDisplay">
+            <div class="col-md-12 project-title">
+                <p>Resume Project</p>
+            </div>
+            <div class="col-md-4 col-sm-12 projectImg thumbnail">
+                <img src="images/resume.jpeg" alt="Resume" />
+            </div>
+            <div class="project-details col-md-8">
+                <p>In this project I built four javaScript objects (Skills, Projects, and Schools). I then manipulate the DOM in order to pass these objects using various loops, while also using jQuery append and prepend functions, and finally CSS to visually style the resume.</p>
+                <br><span class=bold>Technology Used: HTML | javaScript | CSS | jQuery</span>
+                <br><span><a href="https://j8298c.github.io/Resume/" target="_blank">Project Link</a></span>
+            </div>
+
+
+            <div class="col-md-12 project-title">
+                <p>Word Scrabble Game app</p>
+            </div>
+            <div class="col-md-4 col-sm-12 projectImg thumbnail">
+                <img src="images/img4.png" alt="Udacity Arcade Clone" />
+            </div>
+            <div class="project-details col-md-8">
+                <p>This is an android app that is a game named "Word Scrabble".This project focused on  advanced Java and HTML properties. In this game two players can play by making valid words. I also wrote the readme documentation to explain how the game functions.
+                </p>
+                <br><span class=bold>Technology Used: HTML5 Canvas | Java</span>
+                <br><span><a href="https://github.com/DeepakGoyal468/Word_Scrabbles_Game_App" target="_blank">Project Link</a></span>
+            </div>
+            <div class="col-md-12 project-title">
+                <p>Projectile</p>
+            </div>
+            <div class="col-md-4 col-sm-12 projectImg thumbnail">
+                <img src="images/projectile.png" alt="" />
+            </div>
+            <div class="project-details col-md-8">
+                <p>This project is an project listing platform for students to create a technical environment among the students. On this platform student can post their projects and they can also search projects according to their skills and interest.
+                </p>
+                <br><span class=bold>Technology Used: Django | Python | HTML5 | javaScript | CSS3 | jquery | bower | json</span>
+                <br><span><a href="https://github.com/DeepakGoyal468/projectile" target="_blank">Project Link</a></span>
+            </div>
+            <div class="col-md-12 project-title">
+                <p>My first blog</p>
+            </div>
+            <div class="col-md-4 col-sm-12 projectImg thumbnail">
+                <img src="images/todo.png" alt="todoApp" />
+            </div>
+            <div class="project-details col-md-8">
+                <p>This was my first web app in Django. Where I can write my blog.
+                </p>
+                <br><span class=bold>Technology Used: HTML5 | Django | Python </span>
+                <br><span><a href="https://github.com/DeepakGoyal468/my-first-blog" target="_blank">Project Link</a></span>
+            </div>
+        </div>
+        <div class="row projectDisplay">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row techDisplay">
+            <div class="skills col-md-12">
+                <h2 class="headline">Technical Skills</h2>
+            </div>
+        </div>
+        <div class="techSkills row techDisplay">
+            <div class="col-md-4 col-sm-12 text-center">
+                <h5>Proficient Languages</h5>
+                <ul>
+                    <li>HTML/HTML5</li>
+                    <li>CSS/CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+		    <li>Django</li>
+		    <li>Php</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center borderLeft">
+                <h5>Frameworks/Libraries</h5>
+                <ul>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>Node.JS</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <h5>Other Jedi Tricks</h5>
+                <ul>
+                    <li>Git/GitHub</li>
+                    <li>Model-View-Controller</li>
+                    <li>Web Optimization</li>
                 </ul>
             </div>
         </div>
-       
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+</body>
+
 </html>
