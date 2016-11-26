@@ -29,3 +29,125 @@ body {
     padding-right:20px;
                     
 }
+body {
+    background: #EBEBEB;
+}
+nav>ul>li {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    height: 100%;
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: inherit;
+}
+a {
+    color: #333;
+}
+li:hover {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+h1 {
+    font-size: 56px;
+    text-align: center;
+}
+h4 {
+    font-size: 44px;
+    text-align: center;
+}
+.name {
+    color: #4386F8;
+}
+.about {
+    text-align: center;
+    font-size: 20px;
+    width: 55%;
+    margin: 45px auto;
+}
+hr {
+    border-color: #4386F8;
+    width: 55%;
+}
+.headline {
+    color: #4386F8;
+}
+.project-title {
+    color: #4386F8;
+    margin: 20px;
+    font-size: 34px;
+    text-align: center;
+}
+.projects {
+    border: 1px solid white;
+    background: white;
+}
+.project-details {
+    padding-left: 35px;
+    text-align: justify;
+}
+.bold {
+    font-weight: 600;
+}
+.techSkills li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 0;
+}
+h5 {
+    font-size: 24px;
+    text-align: center;
+}
+.borderLeft {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.projectDisplay,
+.techDisplay {
+    display: none;
+}
+/* Styling for mobile phones */
+
+@media (max-width: 750px) {
+    nav>ul>li {
+        display: none;
+    }
+  
+    .about {
+        display: none;
+    }
+    .projectDisplay,
+    .techDisplay {
+        display: block;
+    }
+    .project-details {
+        padding-left: 15px;
+    }
+    .techSkills li {
+        text-align: left;
+    }
+    .borderLeft {
+        border: none;
+    }
+    .headline {
+        text-align: left;
+    }
+}
+/* Styling for tablets */
+
+@media (min-width: 751px) and (max-width: 850px) {
+    nav>ul>li {
+        display: inline-block;
+        width: 12%;
+        text-align: center;
+        height: 100%;
+        font-size: 20px;
+        margin-bottom: 35px;
+        margin-left: 30px;
+        margin-top: 30px;
+        color: inherit;
+    }
+}
